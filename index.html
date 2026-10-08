@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Greek Art Gallery</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Visual Art</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#" class="nav__link">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">PHOTOS</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">GALLERY</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">ABOUT US</a>
+                    </li>
+                </ul>
+
+                <button class="nav__close" id="nav-close" aria-label="Close menu">
+                    <i class="ri-close-large-line"></i>
+                </button>
+            </div>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+                <i class="ri-menu-line"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home">
+            <div class="home__swiper swiper">
+                <div class="swiper-wrapper ">
+                    <article class="home__slider swiper-slide">
+                        <img src="img/1.png" alt="" class="home__img" data-swiper-parallax-scale="5"
+                            data-swiper-parallax="600">
+
+                        <div class="home__data" data-swiper-parallax-scale="5" data-swiper-parallax="600">
+                            <h3 class="home__subtitle">Visual Art</h3>
+                            <h1 class="home__title">THE ART <br> OF LINE</h1>
+                        </div>
+
+                        <div class="home__info">
+                            <p class="home__description">
+                                The art includes both antique and modern pieces that speak volumes just by looking at
+                                them.
+                            </p>
+
+                            <a href="#" class="home__button">
+                                <i class="ri-arrow-down-long-line"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="home__slider swiper-slide">
+                        <img src="img/2.jpg" alt="" class="home__img" data-swiper-parallax-scale="5"
+                            data-swiper-parallax="600">
+
+                        <div class="home__data" data-swiper-parallax-scale="5" data-swiper-parallax="600">
+                            <h3 class="home__subtitle">Visual Art</h3>
+                            <h1 class="home__title">THE WALK <br> IN NATURE</h1>
+                        </div>
+
+                        <div class="home__info">
+                            <p class="home__description">
+                                The art includes both antique and modern pieces that speak volumes just by looking at
+                                them.
+                            </p>
+
+                            <a href="#" class="home__button">
+                                <i class="ri-arrow-down-long-line"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="home__slider swiper-slide">
+                        <img src="img/3.jpg" alt="" class="home__img" data-swiper-parallax-scale="5"
+                            data-swiper-parallax="600">
+
+                        <div class="home__data" data-swiper-parallax-scale="5" data-swiper-parallax="600">
+                            <h3 class="home__subtitle">Visual Art</h3>
+                            <h1 class="home__title">THE ART <br> OF GOOD</h1>
+                        </div>
+
+                        <div class="home__info">
+                            <p class="home__description">
+                                The art includes both antique and modern pieces that speak volumes just by looking at
+                                them.
+                            </p>
+
+                            <a href="#" class="home__button">
+                                <i class="ri-arrow-down-long-line"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
